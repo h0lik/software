@@ -1,0 +1,11 @@
+#!/bin/bash
+
+helpFync() {
+cat << EOF
+- Working scripts:
+EOF
+echo -e "\e[32m gen-sha \e[0m -> Password generator in SHA512 hashes;"
+echo -e "\e[32m ssh-host \e[0m -> Shows a list of ssh aliases;"
+}
+
+helpFync
