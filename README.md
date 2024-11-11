@@ -8,7 +8,7 @@ git clone  https://github.com/h0lik/software.git
 ```
 ### Install - work-help
 ```bash
-ln -n /opt/software/work-help /usr/loca/bin/work-help
+ln -s /opt/software/work-help /usr/local/bin/work-help
 ```
 ### Install gen-sha
 ```bash
