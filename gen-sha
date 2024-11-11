@@ -1,0 +1,7 @@
+#!/bin/python3
+
+import crypt
+genpass = input("You password: ")
+print(crypt.crypt(f"{genpass}"))
+crypt.mksalt(crypt.METHOD_SHA512)
+
